@@ -1,0 +1,1455 @@
+Started GET "/" for 127.0.0.1 at 2017-08-14 22:02:34 +0100
+Started GET "/dashboard/dashboard_v1" for 127.0.0.1 at 2017-08-14 22:02:34 +0100
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (11240.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.9ms) [cache miss]
+Completed 200 OK in 11995ms (Views: 11853.1ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:02:47 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:02:47 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started GET "/dashboard/dashboard_v2" for 127.0.0.1 at 2017-08-14 22:04:45 +0100
+Processing by DashboardController#dashboard_v2 as HTML
+  Rendering dashboard/dashboard_v2.html.erb within layouts/application
+  Rendered dashboard/dashboard_v2.html.erb within layouts/application (5.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (10.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 151ms (Views: 149.1ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:04:46 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 5ms (Views: 5.1ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:04:46 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 7ms (Views: 6.6ms)
+
+
+Started GET "/dashboard/dashboard_v3" for 127.0.0.1 at 2017-08-14 22:04:50 +0100
+Processing by DashboardController#dashboard_v3 as HTML
+  Rendering dashboard/dashboard_v3.html.erb within layouts/application
+  Rendered dashboard/dashboard_v3.html.erb within layouts/application (6.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (8.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 145ms (Views: 143.8ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:04:50 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:04:50 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 7ms (Views: 6.6ms)
+
+
+Started GET "/dashboard/dashboard_v2" for 127.0.0.1 at 2017-08-14 22:04:53 +0100
+Processing by DashboardController#dashboard_v2 as HTML
+  Rendering dashboard/dashboard_v2.html.erb within layouts/application
+  Rendered dashboard/dashboard_v2.html.erb within layouts/application (5.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 153ms (Views: 150.8ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:04:54 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:04:54 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 10ms (Views: 9.5ms)
+
+
+Started GET "/dashboard/dashboard_v1" for 127.0.0.1 at 2017-08-14 22:04:55 +0100
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.2ms) [cache miss]
+Completed 200 OK in 162ms (Views: 160.2ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:04:55 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:04:55 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 6ms (Views: 6.1ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:04:56 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (14.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.2ms) [cache miss]
+Completed 200 OK in 151ms (Views: 147.2ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:04:57 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 6ms (Views: 6.3ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:04:57 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 7ms (Views: 6.9ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:04:59 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (7.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (11.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 133ms (Views: 131.3ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:04:59 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:04:59 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:10:38 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (8.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 128ms (Views: 126.3ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:10:39 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 8ms (Views: 7.3ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:10:39 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 8ms (Views: 8.0ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:22:28 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (12.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (10.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.2ms) [cache miss]
+Completed 200 OK in 137ms (Views: 135.8ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:22:29 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:22:29 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.7ms)
+Completed 200 OK in 11ms (Views: 10.5ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:22:50 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 138ms (Views: 136.2ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:22:51 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:22:51 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 8ms (Views: 7.7ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:24:53 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (9.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.2ms) [cache miss]
+Completed 200 OK in 130ms (Views: 128.5ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:24:54 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:24:54 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 7ms (Views: 7.2ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:25:48 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (9.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.2ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 134ms (Views: 132.7ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:25:48 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 5ms (Views: 5.4ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:25:49 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 10ms (Views: 9.6ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:38:39 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (9.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (960.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (11.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 1151ms (Views: 1149.5ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:38:41 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 7ms (Views: 6.3ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:38:41 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 9ms (Views: 8.6ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:38:58 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (13.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (8.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 154ms (Views: 152.2ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:38:59 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 6ms (Views: 6.1ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:38:59 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 10ms (Views: 9.6ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:39:06 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (9.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.2ms) [cache miss]
+Completed 200 OK in 136ms (Views: 134.8ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:39:07 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 5ms (Views: 5.3ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:39:07 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 10ms (Views: 9.9ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:40:20 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (11.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 147ms (Views: 145.6ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:40:21 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 5ms (Views: 5.4ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:40:21 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 10ms (Views: 9.5ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:41:49 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (8.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (8.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 132ms (Views: 130.2ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:41:49 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:41:49 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 8ms (Views: 7.5ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:42:02 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (7.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (8.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 140ms (Views: 138.2ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:42:02 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 6ms (Views: 6.3ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:42:02 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.1ms)
+Completed 200 OK in 9ms (Views: 8.8ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:44:25 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (10.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (8.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 131ms (Views: 130.1ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:44:26 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:44:26 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 9ms (Views: 9.2ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:44:43 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (9.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 133ms (Views: 132.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:44:43 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:44:43 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:46:56 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (9.3ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 140ms (Views: 138.4ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:46:56 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:46:56 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.8ms)
+Completed 200 OK in 7ms (Views: 6.8ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:50:56 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (8.7ms)
+Completed 500 Internal Server Error in 635ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "  }": expected selector or at-rule, was "}"):
+    12:    <!-- =============== VIEW VENDOR STYLES ===============-->
+    13:    <%= stylesheet_link_tag params[:controller] %>
+    14:    <!-- =============== APP STYLES ===============-->
+    15:    <%= stylesheet_link_tag 'application', media: 'all', id: "maincss" %>
+    16:    <%= csrf_meta_tags %>
+    17: </head>
+    18: 
+  
+app/assets/stylesheets/angle/app/top-navbar.scss:144
+app/assets/stylesheets/angle/app.scss:109
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__2244305698259734571_70124535418840'
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:51:13 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (9.3ms)
+Completed 500 Internal Server Error in 657ms
+
+
+  
+ActionView::Template::Error (Invalid CSS after "": expected selector, was ","):
+    12:    <!-- =============== VIEW VENDOR STYLES ===============-->
+    13:    <%= stylesheet_link_tag params[:controller] %>
+    14:    <!-- =============== APP STYLES ===============-->
+    15:    <%= stylesheet_link_tag 'application', media: 'all', id: "maincss" %>
+    16:    <%= csrf_meta_tags %>
+    17: </head>
+    18: 
+  
+app/assets/stylesheets/angle/app/top-navbar.scss:84
+app/assets/stylesheets/angle/app.scss:109
+app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__2244305698259734571_70124534500880'
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:51:23 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (8.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (58.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.4ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 3112ms (Views: 3110.5ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:51:27 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:51:27 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 9ms (Views: 8.7ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:51:39 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (10.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (12.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 3012ms (Views: 3011.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:51:42 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 9ms (Views: 8.6ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:51:42 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 9ms (Views: 9.1ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-14 22:51:49 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (9.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (12.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.2ms) [cache miss]
+Completed 200 OK in 2981ms (Views: 2979.2ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:51:53 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 6ms (Views: 6.3ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:51:53 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 7ms (Views: 6.9ms)
+
+
+Started GET "/elements/button" for 127.0.0.1 at 2017-08-14 22:52:35 +0100
+Processing by ElementsController#button as HTML
+  Rendering elements/button.html.erb within layouts/application
+  Rendered elements/button.html.erb within layouts/application (1.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (13.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 296ms (Views: 294.1ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:52:36 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.9ms)
+Completed 200 OK in 8ms (Views: 7.3ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:52:36 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms)
+
+
+Started GET "/pages/lock" for 127.0.0.1 at 2017-08-14 22:52:55 +0100
+Processing by PagesController#lock as HTML
+  Rendering pages/lock.html.erb within layouts/pages
+  Rendered pages/lock.html.erb within layouts/pages (1.6ms)
+Completed 200 OK in 111ms (Views: 109.1ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:52:55 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:52:55 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 8ms (Views: 7.4ms)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2017-08-14 22:53:00 +0100
+Started GET "/" for 127.0.0.1 at 2017-08-14 22:53:00 +0100
+Started GET "/dashboard/dashboard_v1" for 127.0.0.1 at 2017-08-14 22:53:00 +0100
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (6.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (10.3ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 182ms (Views: 180.1ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:53:01 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:53:01 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started GET "/dashboard/dashboard_v2" for 127.0.0.1 at 2017-08-14 22:53:04 +0100
+Processing by DashboardController#dashboard_v2 as HTML
+  Rendering dashboard/dashboard_v2.html.erb within layouts/application
+  Rendered dashboard/dashboard_v2.html.erb within layouts/application (9.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (10.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 151ms (Views: 148.3ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:53:05 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:53:05 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms)
+
+
+Started GET "/dashboard/dashboard_v3" for 127.0.0.1 at 2017-08-14 22:53:08 +0100
+Processing by DashboardController#dashboard_v3 as HTML
+  Rendering dashboard/dashboard_v3.html.erb within layouts/application
+  Rendered dashboard/dashboard_v3.html.erb within layouts/application (4.5ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (10.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.2ms) [cache miss]
+Completed 200 OK in 163ms (Views: 160.6ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:53:09 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:53:09 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 7ms (Views: 6.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-14 22:53:20 +0100
+Started GET "/dashboard/dashboard_v1" for 127.0.0.1 at 2017-08-14 22:53:20 +0100
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.1ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (3.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 142ms (Views: 140.2ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:53:20 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-14 22:53:20 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 8ms (Views: 7.5ms)
+
+
+Started GET "/dashboard/dashboard_v1" for 127.0.0.1 at 2017-08-15 19:29:20 +0100
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (106.8ms)
+  Rendered layouts/partials/_topnavbar.html.erb (5.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (11.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (29.9ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 579ms (Views: 571.9ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:29:21 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:29:21 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.7ms)
+Completed 200 OK in 9ms (Views: 9.2ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateDigitalAssets (20170815184133)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "digital_assets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "ticker" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170815184133"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-08-15 18:43:39.659483"], ["updated_at", "2017-08-15 18:43:39.659483"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/digital_assets/" for 127.0.0.1 at 2017-08-15 19:45:41 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DigitalAssetsController#index as HTML
+  Rendering digital_assets/index.html.erb within layouts/application
+  [1m[36mDigitalAsset Load (0.1ms)[0m  [1m[34mSELECT "digital_assets".* FROM "digital_assets"[0m
+  Rendered digital_assets/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 1592ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( digital_assets.css )` to `config/initializers/assets.rb` and restart your server):
+    10:    <!-- =============== VENDOR STYLES ===============-->
+    11:    <%= stylesheet_link_tag 'base' %>
+    12:    <!-- =============== VIEW VENDOR STYLES ===============-->
+    13:    <%= stylesheet_link_tag params[:controller] %>
+    14:    <!-- =============== APP STYLES ===============-->
+    15:    <%= stylesheet_link_tag 'application', media: 'all', id: "maincss" %>
+    16:    <%= csrf_meta_tags %>
+  
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__2244305698259734571_70124519792440'
+Started GET "/digital_assets/" for 127.0.0.1 at 2017-08-15 19:46:33 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DigitalAssetsController#index as HTML
+  Rendering digital_assets/index.html.erb within layouts/application
+  [1m[36mDigitalAsset Load (0.2ms)[0m  [1m[34mSELECT "digital_assets".* FROM "digital_assets"[0m
+  Rendered digital_assets/index.html.erb within layouts/application (10.5ms)
+Completed 500 Internal Server Error in 2147ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( digital_assets.css )` to `config/initializers/assets.rb` and restart your server):
+    10:    <!-- =============== VENDOR STYLES ===============-->
+    11:    <%= stylesheet_link_tag 'base' %>
+    12:    <!-- =============== VIEW VENDOR STYLES ===============-->
+    13:    <%= stylesheet_link_tag params[:controller] %>
+    14:    <!-- =============== APP STYLES ===============-->
+    15:    <%= stylesheet_link_tag 'application', media: 'all', id: "maincss" %>
+    16:    <%= csrf_meta_tags %>
+  
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___904554545364109809_70298688247000'
+Started GET "/digital_assets/" for 127.0.0.1 at 2017-08-15 19:49:37 +0100
+Processing by DigitalAssetsController#index as HTML
+  Rendering digital_assets/index.html.erb within layouts/application
+  [1m[36mDigitalAsset Load (0.1ms)[0m  [1m[34mSELECT "digital_assets".* FROM "digital_assets"[0m
+  Rendered digital_assets/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 912ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( digital_assets.css )` to `config/initializers/assets.rb` and restart your server):
+    10:    <!-- =============== VENDOR STYLES ===============-->
+    11:    <%= stylesheet_link_tag 'base' %>
+    12:    <!-- =============== VIEW VENDOR STYLES ===============-->
+    13:    <%= stylesheet_link_tag params[:controller] %>
+    14:    <!-- =============== APP STYLES ===============-->
+    15:    <%= stylesheet_link_tag 'application', media: 'all', id: "maincss" %>
+    16:    <%= csrf_meta_tags %>
+  
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___904554545364109809_70298707865320'
+Started GET "/digital_assets/" for 127.0.0.1 at 2017-08-15 19:49:52 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DigitalAssetsController#index as HTML
+  Rendering digital_assets/index.html.erb within layouts/application
+  [1m[36mDigitalAsset Load (0.2ms)[0m  [1m[34mSELECT "digital_assets".* FROM "digital_assets"[0m
+  Rendered digital_assets/index.html.erb within layouts/application (10.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (7.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (17.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 500 Internal Server Error in 3051ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( digital_assets.js )` to `config/initializers/assets.rb` and restart your server):
+    45:    <!-- =============== VENDOR SCRIPTS ===============-->
+    46:    <%= javascript_include_tag 'base' %>
+    47:    <!-- =============== VIEW VENDOR SCRIPTS ===============-->
+    48:    <%= javascript_include_tag params[:controller] %>
+    49:    <!-- =============== APP SCRIPTS ===============-->
+    50:    <%= javascript_include_tag 'application' %>
+    51: 
+  
+app/views/layouts/application.html.erb:48:in `_app_views_layouts_application_html_erb__1724247866925344740_70335567419540'
+Started GET "/digital_assets/" for 127.0.0.1 at 2017-08-15 19:50:33 +0100
+Processing by DigitalAssetsController#index as HTML
+  Rendering digital_assets/index.html.erb within layouts/application
+  [1m[36mDigitalAsset Load (0.1ms)[0m  [1m[34mSELECT "digital_assets".* FROM "digital_assets"[0m
+  Rendered digital_assets/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (22.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 500 Internal Server Error in 1035ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( digital_assets.js )` to `config/initializers/assets.rb` and restart your server):
+    45:    <!-- =============== VENDOR SCRIPTS ===============-->
+    46:    <%= javascript_include_tag 'base' %>
+    47:    <!-- =============== VIEW VENDOR SCRIPTS ===============-->
+    48:    <%= javascript_include_tag params[:controller] %>
+    49:    <!-- =============== APP SCRIPTS ===============-->
+    50:    <%= javascript_include_tag 'application' %>
+    51: 
+  
+app/views/layouts/application.html.erb:48:in `_app_views_layouts_application_html_erb__1724247866925344740_70335515962560'
+Started GET "/digital_assets/" for 127.0.0.1 at 2017-08-15 19:50:42 +0100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by DigitalAssetsController#index as HTML
+  Rendering digital_assets/index.html.erb within layouts/application
+  [1m[36mDigitalAsset Load (0.2ms)[0m  [1m[34mSELECT "digital_assets".* FROM "digital_assets"[0m
+  Rendered digital_assets/index.html.erb within layouts/application (10.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (3.3ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (6.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (20.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 1804ms (Views: 1800.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:50:44 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:50:44 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/digital_assets/new" for 127.0.0.1 at 2017-08-15 19:50:49 +0100
+Processing by DigitalAssetsController#new as HTML
+  Rendering digital_assets/new.html.erb within layouts/application
+  Rendered digital_assets/_form.html.erb (14.8ms) [cache miss]
+  Rendered digital_assets/new.html.erb within layouts/application (16.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (11.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 155ms (Views: 149.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:50:50 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:50:50 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:50:52 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/digital_assets/new" for 127.0.0.1 at 2017-08-15 19:50:58 +0100
+Processing by DigitalAssetsController#new as HTML
+  Rendering digital_assets/new.html.erb within layouts/application
+  Rendered digital_assets/_form.html.erb (8.2ms) [cache miss]
+  Rendered digital_assets/new.html.erb within layouts/application (9.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.0ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (10.1ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.2ms) [cache miss]
+Completed 200 OK in 124ms (Views: 122.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:50:58 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:50:58 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/digital_assets" for 127.0.0.1 at 2017-08-15 19:51:07 +0100
+Processing by DigitalAssetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vQbyCT7BSk6yhUqVpIseu1UDJGq1eTKNSEUe1hpveOXuUEUqsShWkANh9aRQ+8RIJh9BIU8NNpyh/MVEpHiC3Q==", "digital_asset"=>{"name"=>"Bitcoin", "ticker"=>"BTC"}, "commit"=>"Create Digital asset"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "digital_assets" ("name", "ticker", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Bitcoin"], ["ticker", "BTC"], ["created_at", "2017-08-15 18:51:07.269257"], ["updated_at", "2017-08-15 18:51:07.269257"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/digital_assets/1
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/digital_assets/1" for 127.0.0.1 at 2017-08-15 19:51:07 +0100
+Processing by DigitalAssetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDigitalAsset Load (0.2ms)[0m  [1m[34mSELECT  "digital_assets".* FROM "digital_assets" WHERE "digital_assets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering digital_assets/show.html.erb within layouts/application
+  Rendered digital_assets/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.4ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.8ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 139ms (Views: 134.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:51:07 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:51:07 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/lock" for 127.0.0.1 at 2017-08-15 19:51:28 +0100
+Processing by PagesController#lock as HTML
+  Rendering pages/lock.html.erb within layouts/pages
+  Rendered pages/lock.html.erb within layouts/pages (1.4ms)
+Completed 200 OK in 112ms (Views: 109.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:51:29 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:51:29 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:51:31 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/digital_assets/" for 127.0.0.1 at 2017-08-15 19:51:37 +0100
+Processing by DigitalAssetsController#index as HTML
+  Rendering digital_assets/index.html.erb within layouts/application
+  [1m[36mDigitalAsset Load (0.2ms)[0m  [1m[34mSELECT "digital_assets".* FROM "digital_assets"[0m
+  Rendered digital_assets/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.9ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (11.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.5ms) [cache miss]
+Completed 200 OK in 136ms (Views: 134.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:51:38 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:51:38 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.7ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/digital_assets/new" for 127.0.0.1 at 2017-08-15 19:51:46 +0100
+Processing by DigitalAssetsController#new as HTML
+  Rendering digital_assets/new.html.erb within layouts/application
+  Rendered digital_assets/_form.html.erb (1.9ms) [cache miss]
+  Rendered digital_assets/new.html.erb within layouts/application (4.1ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.1ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (10.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 130ms (Views: 128.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:51:47 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:51:47 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/digital_assets" for 127.0.0.1 at 2017-08-15 19:51:54 +0100
+Processing by DigitalAssetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wdiZh1HyzlfAr9zwzjbNkluApA6DhsW3Q67wiGH5YXSSji6k3hvSiXFLY8E6RhdhKJzBRXnywaaqFysa3+6bTA==", "digital_asset"=>{"name"=>"Ethereum", "ticker"=>"ETH"}, "commit"=>"Create Digital asset"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "digital_assets" ("name", "ticker", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ethereum"], ["ticker", "ETH"], ["created_at", "2017-08-15 18:51:54.950835"], ["updated_at", "2017-08-15 18:51:54.950835"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/digital_assets/2
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/digital_assets/2" for 127.0.0.1 at 2017-08-15 19:51:54 +0100
+Processing by DigitalAssetsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mDigitalAsset Load (0.1ms)[0m  [1m[34mSELECT  "digital_assets".* FROM "digital_assets" WHERE "digital_assets"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering digital_assets/show.html.erb within layouts/application
+  Rendered digital_assets/show.html.erb within layouts/application (1.6ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.3ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (10.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 145ms (Views: 143.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:51:55 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:51:55 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/digital_assets" for 127.0.0.1 at 2017-08-15 19:51:56 +0100
+Processing by DigitalAssetsController#index as HTML
+  Rendering digital_assets/index.html.erb within layouts/application
+  [1m[36mDigitalAsset Load (0.1ms)[0m  [1m[34mSELECT "digital_assets".* FROM "digital_assets"[0m
+  Rendered digital_assets/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.9ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.5ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 143ms (Views: 141.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:51:57 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:51:57 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/widgets" for 127.0.0.1 at 2017-08-15 19:52:33 +0100
+Processing by WidgetsController#index as HTML
+  Rendering widgets/index.html.erb within layouts/application
+  Rendered widgets/index.html.erb within layouts/application (8.9ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.8ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.5ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (10.2ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.2ms) [cache miss]
+Completed 200 OK in 154ms (Views: 151.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:52:33 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.3ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:52:33 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (1.8ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard/dashboard_v1" for 127.0.0.1 at 2017-08-15 19:52:36 +0100
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4.2ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.7ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (8.6ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 199ms (Views: 197.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:52:37 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 7ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:52:37 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/digital_assets/" for 127.0.0.1 at 2017-08-15 19:52:42 +0100
+Processing by DigitalAssetsController#index as HTML
+  Rendering digital_assets/index.html.erb within layouts/application
+  [1m[36mDigitalAsset Load (0.2ms)[0m  [1m[34mSELECT "digital_assets".* FROM "digital_assets"[0m
+  Rendered digital_assets/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.5ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.7ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (10.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.6ms) [cache miss]
+Completed 200 OK in 136ms (Views: 134.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:52:42 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:52:42 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2017-08-15 19:52:49 +0100
+Started GET "/" for 127.0.0.1 at 2017-08-15 19:52:49 +0100
+Started GET "/dashboard/dashboard_v1" for 127.0.0.1 at 2017-08-15 19:52:49 +0100
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (5.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.1ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.6ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.7ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.4ms) [cache miss]
+Completed 200 OK in 204ms (Views: 202.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:52:50 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:52:50 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.7ms)
+Completed 200 OK in 7ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 19:52:54 +0100
+Started GET "/dashboard/dashboard_v1" for 127.0.0.1 at 2017-08-15 19:52:54 +0100
+Processing by DashboardController#dashboard_v1 as HTML
+  Rendering dashboard/dashboard_v1.html.erb within layouts/application
+  Rendered dashboard/dashboard_v1.html.erb within layouts/application (4.4ms)
+  Rendered layouts/partials/_topnavbar.html.erb (1.6ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (5.2ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (9.8ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 152ms (Views: 151.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:52:54 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:52:55 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.5ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/digital_assets/" for 127.0.0.1 at 2017-08-15 19:52:59 +0100
+Processing by DigitalAssetsController#index as HTML
+  Rendering digital_assets/index.html.erb within layouts/application
+  [1m[36mDigitalAsset Load (0.2ms)[0m  [1m[34mSELECT "digital_assets".* FROM "digital_assets"[0m
+  Rendered digital_assets/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/partials/_topnavbar.html.erb (2.0ms) [cache miss]
+  Rendered layouts/partials/_sidebar.html.erb (4.4ms) [cache miss]
+  Rendered layouts/partials/_offsidebar.html.erb (14.0ms) [cache miss]
+  Rendered layouts/partials/_footer.html.erb (0.3ms) [cache miss]
+Completed 200 OK in 144ms (Views: 142.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:52:59 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.6ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/i18n/site-en.json" for 127.0.0.1 at 2017-08-15 19:52:59 +0100
+Processing by ApiController#i18n as JSON
+  Parameters: {"locale"=>"site-en"}
+  Rendering app/assets/i18n/site-en.json
+  Rendered app/assets/i18n/site-en.json (0.4ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+

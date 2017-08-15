@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @digital_asset.name %>
+</p>
+
+<p>
+  <strong>Ticker:</strong>
+  <%= @digital_asset.ticker %>
+</p>
+
+<%= link_to 'Edit', edit_digital_asset_path(@digital_asset) %> |
+<%= link_to 'Back', digital_assets_path %>

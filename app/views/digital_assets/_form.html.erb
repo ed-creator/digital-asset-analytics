@@ -1,0 +1,27 @@
+<%= form_with(model: digital_asset, local: true) do |form| %>
+  <% if digital_asset.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(digital_asset.errors.count, "error") %> prohibited this digital_asset from being saved:</h2>
+
+      <ul>
+      <% digital_asset.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :digital_asset_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :ticker %>
+    <%= form.text_field :ticker, id: :digital_asset_ticker %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
