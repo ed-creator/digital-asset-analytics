@@ -15,6 +15,8 @@ ActiveRecord::Schema.define(version: 20170815184133) do
   create_table "digital_assets", force: :cascade do |t|
     t.string "name"
     t.string "ticker"
+    t.string "proof_type"
+    t.integer "total_coin_supply", limit: 8
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
