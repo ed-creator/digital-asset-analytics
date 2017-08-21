@@ -1,4 +1,7 @@
 module ApplicationHelper
+
+  include ActionView::Helpers::NumberHelper
+  
   def controller?(*controller)
     controller.include?(params[:controller])
   end

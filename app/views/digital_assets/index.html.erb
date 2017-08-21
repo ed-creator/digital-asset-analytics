@@ -19,18 +19,18 @@
                         <th class="sort-alpha">Name</th>
                         <th class="sort-numeric">Supply</th>
                         <th class="sort-alpha">Proof</th>
-                        <th class="sort-alpha">CSS grade</th>
+                        <th class="sort-numeric">Price (USD)</th>
                      </tr>
                   </thead>
                   <tbody>
 
                      <% @digital_assets.each do |digital_asset| %>
                        <tr>
-                         <td><%= link_to digital_asset.name, digital_asset %></td>
+                         <td><%= link_to digital_asset.name, digital_asset %> (<%= digital_asset.ticker %>)</td>
                          <td><%= digital_asset.ticker %></td>
-                         <td><%= digital_asset.total_coin_supply %></td>
+                         <td><%= number_with_delimiter(digital_asset.total_coin_supply, :delimiter => ',') %></td>
                          <td><%= number_with_delimiter(digital_asset.proof_type, :delimiter => ',') %></td>
-                         <td>A</td>
+                         <td>$ <%= number_with_delimiter(digital_asset.usd_string_price, :delimiter => ',') %></td>
                        </tr>
                      <% end %>
 
