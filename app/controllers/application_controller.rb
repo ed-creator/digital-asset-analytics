@@ -5,4 +5,16 @@ class ApplicationController < ActionController::Base
 
   def dashboard
   end
+
+  def current_digital_asset
+    @current_digital_asset ||= DigitalAsset.find(session[:current_digital_asset_id])
+  end
+
+  def logged_in?
+    current_digital_asset != nil
+  end
+
+
+  helper_method :current_digital_asset, :logged_in?
+
 end

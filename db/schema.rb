@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20170815184133) do
     t.float "eth_price"
     t.float "usd_marketcap"
     t.integer "total_coin_supply", limit: 8
+    t.integer "available_coin_supply", limit: 8
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

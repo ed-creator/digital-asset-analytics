@@ -10,6 +10,7 @@ class DigitalAssetsController < ApplicationController
   # GET /digital_assets/1
   # GET /digital_assets/1.json
   def show
+    session[:current_digital_asset_id] = @digital_asset.id
   end
 
   # GET /digital_assets/new

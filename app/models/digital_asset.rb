@@ -20,4 +20,12 @@ class DigitalAsset < ApplicationRecord
     end
   end
 
+  def usd_string_marketcap
+    if usd_price != nil
+      return (ActionController::Base.helpers.number_with_precision(usd_marketcap,precision: 20, strip_insignificant_zeros: true))
+    else
+      return "0"
+    end
+  end
+
 end
