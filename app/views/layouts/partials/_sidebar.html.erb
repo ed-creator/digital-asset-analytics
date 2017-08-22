@@ -78,27 +78,30 @@
         <li class="nav-heading">
            <span>Asset Info</span>
         </li>
-        <li class="<%= 'active' if controller?('multilevel') %>">
+        <li class="<%= 'active' if controller?('price_data_controller') %>">
            <a href="#multilevel" title="current_digital_asset" data-toggle="collapse">
               <em class="fa fa-folder-open-o"></em>
               <span><%= current_digital_asset.ticker%></span>
            </a>
            <ul id="multilevel" class="nav sidebar-subnav collapse">
               <li class="sidebar-subnav-header">Multilevel</li>
-              <li class="<%= 'active' if controller?('multilevel') && action?('level1') %>">
+              <li class="<%= 'active' if controller?('price_data_controller') && action?('level1') %>">
                  <a href="#level1" title="Level 1" data-toggle="collapse">
                     <span>Coin Data</span>
                  </a>
                  <ul id="level1" class="nav sidebar-subnav collapse">
                     <li class="sidebar-subnav-header">Level 1</li>
+                    <li class="<%= 'active' if controller?('price_data_controller') && action?('level1') %>">
+                          <%= link_to "DigitalAssetPrice", digital_assets_price_datum_path(current_digital_asset.id), title: "Level1 Item"%>
+                    </li>
                     <li class="<%= 'active' if controller?('multilevel') && action?('level1') %>">
                        <a href="/multilevel/level1" title="Level1 Item">
-                          <span>Price Data</span>
+                          Blockchain Stats
                        </a>
                     </li>
                     <li class="<%= 'active' if controller?('multilevel') && action?('level1') %>">
                        <a href="/multilevel/level1" title="Level1 Item">
-                          <span>Blockchain Stats</span>
+                          <span>Team</span>
                        </a>
                     </li>
                     <li class="<%= 'active' if controller?('multilevel') && action?('level3') %>">

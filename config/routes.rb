@@ -4,6 +4,13 @@ Rails.application.routes.draw do
 
   # defaults to dashboard
   root :to => redirect('/dashboard/dashboard_v1')
+  namespace :digital_assets do
+    # Actions: charities#index and charities#show
+    resources :price_data, :only => [:show]
+
+    # Actions: donors#index and donors#show
+    resources :blockchain_data, :only => [:show]
+  end
 
   # view routes
   get '/widgets' => 'widgets#index'

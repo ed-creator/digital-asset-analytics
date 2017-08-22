@@ -1,7 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Digital Assets</h1>
-<h1><%= current_digital_asset.ticker %></h1> 
+<h1><%= current_digital_asset.ticker %></h1>
 
 <div class="container-fluid">
    <!-- START DATATABLE  -->
@@ -27,7 +27,7 @@
 
                      <% @digital_assets.each do |digital_asset| %>
                        <tr>
-                         <td><%= link_to digital_asset.name, digital_asset %> (<%= digital_asset.ticker %>)</td>
+                         <td><%= link_to digital_asset.name, digital_asset %> <%= digital_asset.ticker %></td>
                          <td><%= digital_asset.ticker %></td>
                          <td><%= number_with_delimiter(digital_asset.total_coin_supply, :delimiter => ',') %></td>
                          <td><%= number_with_delimiter(digital_asset.usd_string_marketcap, :delimiter => ',') %></td>
