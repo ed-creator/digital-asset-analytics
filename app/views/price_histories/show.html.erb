@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Digital asset:</strong>
+  <%= @price_history.digital_asset %>
+</p>
+
+<%= link_to 'Edit', edit_price_history_path(@price_history) %> |
+<%= link_to 'Back', price_histories_path %>

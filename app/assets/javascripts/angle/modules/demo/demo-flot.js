@@ -1,5 +1,5 @@
 // CHART SPLINE
-// ----------------------------------- 
+// -----------------------------------
 (function(window, document, $, undefined){
 
   $(function(){
@@ -153,11 +153,11 @@
     var chart = $('.chart-spline');
     if(chart.length)
       $.plot(chart, data, options);
-    
+
     var chartv2 = $('.chart-splinev2');
     if(chartv2.length)
       $.plot(chartv2, datav2, options);
-    
+
     var chartv3 = $('.chart-splinev3');
     if(chartv3.length)
       $.plot(chartv3, datav3, options);
@@ -167,7 +167,7 @@
 })(window, document, window.jQuery);
 
 // CHART AREA
-// ----------------------------------- 
+// -----------------------------------
 (function(window, document, $, undefined){
 
   $(function(){
@@ -243,7 +243,7 @@
 })(window, document, window.jQuery);
 
 // CHART BAR
-// ----------------------------------- 
+// -----------------------------------
 (function(window, document, $, undefined){
 
   $(function(){
@@ -306,7 +306,7 @@
 
 
 // CHART BAR STACKED
-// ----------------------------------- 
+// -----------------------------------
 (function(window, document, $, undefined){
 
   $(function(){
@@ -465,7 +465,7 @@
 })(window, document, window.jQuery);
 
 // CHART DONUT
-// ----------------------------------- 
+// -----------------------------------
 (function(window, document, $, undefined){
 
   $(function(){
@@ -510,7 +510,7 @@
 })(window, document, window.jQuery);
 
 // CHART LINE
-// ----------------------------------- 
+// -----------------------------------
 (function(window, document, $, undefined){
 
   $(function(){
@@ -601,7 +601,7 @@
 
 
 // CHART PIE
-// ----------------------------------- 
+// -----------------------------------
 (function(window, document, $, undefined){
 
   $(function(){

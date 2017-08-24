@@ -2,6 +2,7 @@ require 'httparty'
 
 class DigitalAsset < ApplicationRecord
   validates :ticker, uniqueness: true
+  has_many :price_histories
 
   def update_price
     response = HTTParty.get('https://min-api.cryptocompare.com/data/price?fsym=' + ticker + '&tsyms=BTC,USD,ETH')
@@ -27,5 +28,16 @@ class DigitalAsset < ApplicationRecord
       return "0"
     end
   end
+
+  def get_price_history_max
+    return price_histories.max_by(&:close).close unless price_histories.empty?
+  end
+
+  def get_price_history_data
+    price_histories.where("close > 0").map do |x|
+      {price: x.close, date: x.date_timestamp.strftime("%d %b %y") }
+    end
+  end
+
 
 end

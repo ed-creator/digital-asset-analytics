@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170815184133) do
+ActiveRecord::Schema.define(version: 20170822160418) do
 
   create_table "digital_assets", force: :cascade do |t|
     t.string "name"
@@ -24,6 +24,21 @@ ActiveRecord::Schema.define(version: 20170815184133) do
     t.integer "available_coin_supply", limit: 8
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "price_histories", force: :cascade do |t|
+    t.integer "digital_asset_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "date_integer_timestamp"
+    t.float "close"
+    t.float "volume_from_usd"
+    t.float "volume_to_usd"
+    t.float "volume_from_btc"
+    t.float "volume_to_btc"
+    t.float "volume_from_eth"
+    t.float "volume_to_eth"
+    t.index ["digital_asset_id"], name: "index_price_histories_on_digital_asset_id"
   end
 
 end

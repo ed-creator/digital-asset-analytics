@@ -1,0 +1,22 @@
+<%= form_with(model: price_history, local: true) do |form| %>
+  <% if price_history.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(price_history.errors.count, "error") %> prohibited this price_history from being saved:</h2>
+
+      <ul>
+      <% price_history.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :digital_asset_id %>
+    <%= form.text_field :digital_asset_id, id: :price_history_digital_asset_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
