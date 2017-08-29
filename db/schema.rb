@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 20170822160418) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "digital_assets", force: :cascade do |t|
     t.string "name"
     t.string "ticker"
@@ -20,14 +23,14 @@ ActiveRecord::Schema.define(version: 20170822160418) do
     t.float "btc_price"
     t.float "eth_price"
     t.float "usd_marketcap"
-    t.integer "total_coin_supply", limit: 8
-    t.integer "available_coin_supply", limit: 8
+    t.bigint "total_coin_supply"
+    t.bigint "available_coin_supply"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "price_histories", force: :cascade do |t|
-    t.integer "digital_asset_id"
+    t.bigint "digital_asset_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "date_integer_timestamp"
@@ -41,4 +44,5 @@ ActiveRecord::Schema.define(version: 20170822160418) do
     t.index ["digital_asset_id"], name: "index_price_histories_on_digital_asset_id"
   end
 
+  add_foreign_key "price_histories", "digital_assets"
 end

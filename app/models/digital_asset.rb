@@ -34,7 +34,8 @@ class DigitalAsset < ApplicationRecord
   end
 
   def get_price_history_data
-    price_histories.where("close > 0").map do |x|
+    array = price_histories.where("close > 0").order('date_integer_timestamp')
+    array.map do |x|
       {price: x.close, date: (x.date_timestamp.to_i * 1000)}
     end
   end

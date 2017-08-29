@@ -56,16 +56,15 @@
 // CHART SPLINE
 // -----------------------------------
 
-var test = null;
+var ploted_chart_price_history = null;
 
 (function(window, document, $, undefined){
-
   $(function(){
 
     var data = [{
       "label": gon.current_digital_asset.ticker,
       "color": "#23b7e5",
-      "data": gon.data
+      "data": gon.data,
     }];
 
     var options = {
@@ -78,7 +77,7 @@ var test = null;
               radius: 4
           },
           splines: {
-              show: true,
+              show: false,
               tension: 0.4,
               lineWidth: 1.4,
               fill: 0.2
@@ -107,7 +106,6 @@ var test = null;
           axisLabelPadding: 10,
           tickColor: '#fcfcfc',
           mode: 'time',
-          timeformat: "%y/%m/%d",
 
       },
       yaxis: {
@@ -124,7 +122,8 @@ var test = null;
 
     var chart = $('.chart-price-history');
     if(chart.length)
-      test = $.plot(chart, data, options);
+
+      ploted_chart_price_history = $.plot(chart, data, options);
 
     var chartv2 = $('.chart-splinev2');
     if(chartv2.length)
@@ -146,7 +145,7 @@ var test = null;
 
   $('#update-chart-price-history').click(function () {
     // Update range boundary for axes.
-    var axes = test.getAxes();
+    var axes = ploted_chart_price_history.getAxes();
     if (newMinDate) {
       axes.xaxis.options.min = newMinDate;
     }
@@ -156,8 +155,76 @@ var test = null;
 
 
     // Redraw
-    test.setupGrid();
-    test.draw();
+    ploted_chart_price_history.setupGrid();
+    ploted_chart_price_history.draw();
+  });
+
+})(window, document, window.jQuery);
+// CHART AREA
+// -----------------------------------
+(function(window, document, $, undefined){
+
+  $(function(){
+
+    var data = [{
+      "label": "Uniques",
+      "color": "#aad874",
+      "data": [
+        ["Mar", 50],
+        ["Apr", 84],
+        ["May", 52],
+        ["Jun", 88],
+        ["Jul", 69],
+        ["Aug", 92],
+        ["Sep", 58]
+      ]
+    }, {
+      "label": "Recurrent",
+      "color": "#7dc7df",
+      "data":
+        gon.data
+
+    }];
+
+    var options = {
+                    series: {
+                        lines: {
+                            show: true,
+                            fill: 0.8
+                        },
+                        points: {
+                            show: true,
+                            radius: 4
+                        }
+                    },
+                    grid: {
+                        borderColor: '#eee',
+                        borderWidth: 1,
+                        hoverable: true,
+                        backgroundColor: '#fcfcfc'
+                    },
+                    tooltip: true,
+                    tooltipOpts: {
+                        content: function (label, x, y) { return x + ' : ' + y; }
+                    },
+                    xaxis: {
+                        tickColor: '#fcfcfc',
+                        mode: 'categories'
+                    },
+                    yaxis: {
+                        min: 0,
+                        max: gon.max_price,
+                        tickColor: '#eee',
+                        // position: 'right' or 'left'
+
+                    },
+                    shadowSize: 0
+                };
+
+    var chart = $('.chart-area-test');
+    if(chart.length)
+      $.plot(chart, data, options);
+
   });
 
 })(window, document, window.jQuery);

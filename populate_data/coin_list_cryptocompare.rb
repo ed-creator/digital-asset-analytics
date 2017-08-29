@@ -4,10 +4,14 @@ require 'active_record'
 require './app/models/application_record'
 require './app/models/digital_asset'
 
-ActiveRecord::Base.establish_connection(
-  adapter:  "sqlite3",
-  database: "./db/development.sqlite3"
-)
+# ActiveRecord::Base.establish_connection(
+#   adapter:  "sqlite3",
+#   database: "./db/development.sqlite3"
+# )
+
+# if using postgres:
+db_config = YAML.load_file('config/database.yml')
+ActiveRecord::Base.establish_connection(db_config['development'])
 
 def cryptocompare
 response = HTTParty.get('https://www.cryptocompare.com/api/data/coinlist/')
