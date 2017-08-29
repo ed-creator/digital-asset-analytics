@@ -13,7 +13,7 @@ So that I can compare Assests
 I want to see the price of each Assets
 
 As a User 
-So that I can assess an Assests
+So that I can assess an Assest
 I want to see the price history of the Assets
 ```
 
