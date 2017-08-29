@@ -110,7 +110,6 @@ var ploted_chart_price_history = null;
       },
       yaxis: {
           min: 0,
-          max: gon.max_price, // optional: use it for a clear represetation
           tickColor: '#eee',
           //position: 'right' or 'left',
           tickFormatter: function (v) {
@@ -213,7 +212,7 @@ var ploted_chart_price_history = null;
                     },
                     yaxis: {
                         min: 0,
-                        max: gon.max_price,
+                        max: (gon.max_price * 1.05),
                         tickColor: '#eee',
                         // position: 'right' or 'left'
 

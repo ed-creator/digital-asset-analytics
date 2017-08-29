@@ -44,6 +44,7 @@
     //
 
     var dtInstance2 = $('#datatable2').dataTable({
+         order: [[3, 'desc']],
         'paging':   true,  // Table pagination
         'ordering': true,  // Column ordering
         'info':     true,  // Bottom left status text

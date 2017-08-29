@@ -40,5 +40,4 @@ class DigitalAsset < ApplicationRecord
     end
   end
 
-
 end
