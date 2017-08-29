@@ -1,4 +1,6 @@
-# README
+# Digital Asset Analytics
+
+A Web App/Database that analyses Digital Assets (Bitcoin, Ethereum, etc..) for trends. 
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
