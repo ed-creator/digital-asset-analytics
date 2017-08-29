@@ -1,0 +1,17 @@
+{
+  "name": "angle",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the\r application up and running.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Edward Ward",
+  "license": "ISC",
+  "dependencies": {
+    "date.format.js": "^1.1.3"
+  }
+}

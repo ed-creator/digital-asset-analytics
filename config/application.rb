@@ -6,11 +6,12 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+
+
 module Angle
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
-
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -22,9 +23,9 @@ module Angle
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-    
-    # setup bower components folder for lookup
-    config.assets.paths << Rails.root.join('vendor', 'assets', 'bower_components')
+
+    # setup bower components & npm folder for lookup
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'bower_components', 'node_modules')
     # fonts
     config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
     # images

@@ -35,7 +35,7 @@ class DigitalAsset < ApplicationRecord
 
   def get_price_history_data
     price_histories.where("close > 0").map do |x|
-      {price: x.close, date: x.date_timestamp.strftime("%d %b %y") }
+      {price: x.close, date: (x.date_timestamp.to_i * 1000)}
     end
   end
 

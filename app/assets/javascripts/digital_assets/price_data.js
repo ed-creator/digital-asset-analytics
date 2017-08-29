@@ -51,8 +51,13 @@
 
 // --- EasyPie
 //= require jquery.easy-pie-chart/dist/jquery.easypiechart.js
+
+
 // CHART SPLINE
 // -----------------------------------
+
+var test = null;
+
 (function(window, document, $, undefined){
 
   $(function(){
@@ -87,7 +92,12 @@
       },
       tooltip: true,
       tooltipOpts: {
-          content: function (label, x, y) { return x + ' : ' + y; }
+          content: function (label, x, y) {
+            var date = new Date(+x);
+            var tooltip = date.toLocaleDateString();
+            tooltip += '<li>Price: ' + y + '</li>';
+            return tooltip;
+          }
       },
       xaxis: {
           axisLabel: "Date",
@@ -96,8 +106,8 @@
           axisLabelFontFamily: 'Verdana, Arial',
           axisLabelPadding: 10,
           tickColor: '#fcfcfc',
-          mode: 'categories',
-          ticks: []
+          mode: 'time',
+          timeformat: "%y/%m/%d",
 
       },
       yaxis: {
@@ -114,7 +124,7 @@
 
     var chart = $('.chart-price-history');
     if(chart.length)
-      $.plot(chart, data, options);
+      test = $.plot(chart, data, options);
 
     var chartv2 = $('.chart-splinev2');
     if(chartv2.length)
@@ -124,6 +134,30 @@
     if(chartv3.length)
       $.plot(chartv3, datav3, options);
 
+  });
+
+  $('#min-date').change(function () {
+    newMinDate = this.valueAsDate;
+  });
+
+  $('#max-date').change(function () {
+    newMaxDate = this.valueAsDate;
+  });
+
+  $('#update-chart-price-history').click(function () {
+    // Update range boundary for axes.
+    var axes = test.getAxes();
+    if (newMinDate) {
+      axes.xaxis.options.min = newMinDate;
+    }
+    if (newMaxDate) {
+      axes.xaxis.options.max = newMaxDate;
+    }
+
+
+    // Redraw
+    test.setupGrid();
+    test.draw();
   });
 
 })(window, document, window.jQuery);
