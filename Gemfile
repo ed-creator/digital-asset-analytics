@@ -60,3 +60,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "bower-rails", "~> 0.9.2"
 gem "httparty"
 gem 'gon', '~> 6.1'
+gem 'nokogiri'

@@ -59,6 +59,13 @@
                <span data-localize="sidebar.nav.WIDGETS">Widgets</span>
             </a>
          </li>
+         <li class="<%= 'active' if controller?('widgets') && action?('index') %>">
+            <a href="/about" title="About">
+               <div class="label label-success pull-right">30</div>
+               <em class="fa fa-chevron-circle-right"></em>
+               <span data-localize="sidebar.nav.ABOUT">About</span>
+            </a>
+         </li>
          <!-- Layouts -->
          <li>
             <a href="#layout" title="Layouts" data-toggle="collapse">

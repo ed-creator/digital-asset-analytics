@@ -194,6 +194,7 @@ DEPENDENCIES
   gon (~> 6.1)
   httparty
   jbuilder (~> 2.5)
+  nokogiri
   pg
   pry
   puma (~> 3.7)

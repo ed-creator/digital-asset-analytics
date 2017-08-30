@@ -1,0 +1,27 @@
+<%= form_with(model: github_profile, local: true) do |form| %>
+  <% if github_profile.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(github_profile.errors.count, "error") %> prohibited this github_profile from being saved:</h2>
+
+      <ul>
+      <% github_profile.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :link %>
+    <%= form.text_field :link, id: :github_profile_link %>
+  </div>
+
+  <div class="field">
+    <%= form.label :digital_asset_id %>
+    <%= form.text_field :digital_asset_id, id: :github_profile_digital_asset_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

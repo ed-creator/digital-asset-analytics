@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  resources :github_profiles
   resources :price_histories
   resources :digital_assets
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
@@ -14,6 +16,7 @@ Rails.application.routes.draw do
   end
 
   # view routes
+  get '/about' => 'about#index'
   get '/widgets' => 'widgets#index'
   get '/documentation' => 'documentation#index'
 
