@@ -59,6 +59,7 @@
             infoEmpty:    'No records available',
             infoFiltered: '(filtered from _MAX_ total records)'
         }
+        
     });
     var inputSearchClass = 'datatable_input_col_search';
     var columnInputs = $('tfoot .'+inputSearchClass);

@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   # defaults to dashboard
-  root :to => redirect('/dashboard/dashboard_v1')
+  root :to => redirect('/digital_assets')
   namespace :digital_assets do
     # Actions: charities#index and charities#show
     resources :price_data, :only => [:show]
