@@ -27,6 +27,12 @@
          <li class="nav-heading">
             <span>Main Navigation</span>
          </li>
+         <li class="<%= 'active' if controller?('digital_assets') && action?('index') %>">
+           <%= link_to digital_assets_path, title: "Level1 Item" do %>
+            <em class="icon-grid" ></em>
+            <span>Asset List</spam>
+           <% end %>
+         </li>
          <li class="<%= 'active' if controller?('dashboard')%>">
             <a href="#dashboard" title="Dashboard" data-toggle="collapse">
                <div class="label label-info pull-right">3</div>
@@ -59,7 +65,7 @@
                <span data-localize="sidebar.nav.WIDGETS">Widgets</span>
             </a>
          </li>
-         <li class="<%= 'active' if controller?('widgets') && action?('index') %>">
+         <li class="<%= 'active' if controller?('about') && action?('index') %>">
             <a href="/about" title="About">
                <div class="label label-success pull-right">30</div>
                <em class="fa fa-chevron-circle-right"></em>
