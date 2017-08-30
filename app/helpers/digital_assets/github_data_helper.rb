@@ -1,0 +1,2 @@
+module DigitalAssets::GithubDataHelper
+end

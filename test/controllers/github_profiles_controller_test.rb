@@ -17,7 +17,7 @@ class GithubProfilesControllerTest < ActionDispatch::IntegrationTest
 
   test "should create github_profile" do
     assert_difference('GithubProfile.count') do
-      post github_profiles_url, params: { github_profile: { digital_asset_id: @github_profile.digital_asset_id, link: @github_profile.link } }
+      post github_profiles_url, params: { github_profile: { digital_asset_id: @github_profile.digital_asset_id, url: @github_profile.url } }
     end
 
     assert_redirected_to github_profile_url(GithubProfile.last)
@@ -34,7 +34,7 @@ class GithubProfilesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update github_profile" do
-    patch github_profile_url(@github_profile), params: { github_profile: { digital_asset_id: @github_profile.digital_asset_id, link: @github_profile.link } }
+    patch github_profile_url(@github_profile), params: { github_profile: { digital_asset_id: @github_profile.digital_asset_id, url: @github_profile.url } }
     assert_redirected_to github_profile_url(@github_profile)
   end
 

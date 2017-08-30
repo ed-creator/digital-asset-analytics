@@ -118,9 +118,13 @@
                     </li>
                     <li class="<%= 'active' if controller?('multilevel') && action?('level3') %>">
                        <a href="#level2" title="Level 2" data-toggle="collapse">
-                          <span>Level 2</span>
+                          <span>Socail Stats</span>
                        </a>
                        <ul id="level2" class="nav sidebar-subnav collapse">
+                         <li class="sidebar-subnav-header">Level 1</li>
+                         <li class="<%= 'active' if controller?('multilevel') && action?('level1') %>">
+                               <%= link_to "Github Stats", digital_assets_github_datum_path(current_digital_asset.id), title: "Level1 Item"%>
+                         </li>
                           <li class="sidebar-subnav-header">Level 2</li>
                           <li class="<%= 'active' if controller?('multilevel') && action?('level3') %>">
                              <a href="#level3" title="Level 3" data-toggle="collapse">
@@ -139,6 +143,7 @@
                     </li>
                  </ul>
               </li>
+
            </ul>
         </li>
          <!-- /Layouts -->

@@ -3,6 +3,7 @@ require 'httparty'
 class DigitalAsset < ApplicationRecord
   validates :ticker, uniqueness: true
   has_many :price_histories
+  has_one :github_profile
 
   def update_price
     response = HTTParty.get('https://min-api.cryptocompare.com/data/price?fsym=' + ticker + '&tsyms=BTC,USD,ETH')

@@ -11,6 +11,10 @@ Rails.application.config.assets.precompile += %w( digital_assets/price_data.css 
 Rails.application.config.assets.precompile += %w( digital_assets/price_data.js )
 Rails.application.config.assets.precompile += %w( about.css )
 Rails.application.config.assets.precompile += %w( about.js )
+Rails.application.config.assets.precompile += %w( github_profiles.css )
+Rails.application.config.assets.precompile += %w( github_profiles.js )
+Rails.application.config.assets.precompile += %w( digital_assets/github_data.css )
+Rails.application.config.assets.precompile += %w( digital_assets/github_data.js )
 # Rails.application.config.assets.paths << Emoji.images_path
 # Add Yarn node_modules folder to the asset load path.
 # Precompile additional assets.

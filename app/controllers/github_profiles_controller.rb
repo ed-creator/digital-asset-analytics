@@ -69,6 +69,6 @@ class GithubProfilesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def github_profile_params
-      params.require(:github_profile).permit(:link, :digital_asset_id)
+      params.require(:github_profile).permit(:org_name, :digital_asset_id)
     end
 end
