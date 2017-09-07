@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170831144835) do
+ActiveRecord::Schema.define(version: 20170831150934) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,6 +37,22 @@ ActiveRecord::Schema.define(version: 20170831144835) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["digital_asset_id"], name: "index_github_profiles_on_digital_asset_id"
+  end
+
+  create_table "github_repo_snapshots", force: :cascade do |t|
+    t.integer "week_beggining"
+    t.integer "total"
+    t.integer "monday"
+    t.integer "tuesday"
+    t.integer "wednesday"
+    t.integer "thursday"
+    t.integer "friday"
+    t.integer "saturday"
+    t.integer "sunday"
+    t.bigint "github_repo_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["github_repo_id"], name: "index_github_repo_snapshots_on_github_repo_id"
   end
 
   create_table "github_repos", force: :cascade do |t|
@@ -71,6 +87,7 @@ ActiveRecord::Schema.define(version: 20170831144835) do
   end
 
   add_foreign_key "github_profiles", "digital_assets"
+  add_foreign_key "github_repo_snapshots", "github_repos"
   add_foreign_key "github_repos", "github_profiles"
   add_foreign_key "price_histories", "digital_assets"
 end

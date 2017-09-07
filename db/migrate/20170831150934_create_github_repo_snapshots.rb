@@ -1,7 +1,7 @@
 class CreateGithubRepoSnapshots < ActiveRecord::Migration[5.1]
   def change
     create_table :github_repo_snapshots do |t|
-      t.string :week_beggining
+      t.integer :week_beggining
       t.integer :total
       t.integer :monday
       t.integer :tuesday

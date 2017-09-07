@@ -25,6 +25,14 @@ class GithubProfile < ApplicationRecord
     end
   end
 
+  def update_repo_snapshots
+    github_repos.each do
+      |repo|
+      require 'pry'; binding.pry
+      repo.update_repo_snapshots
+    end
+  end
+
   def repo_total(target)
     count = 0
     github_repos.each do |repo|
