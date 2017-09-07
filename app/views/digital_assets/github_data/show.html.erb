@@ -1,22 +1,70 @@
 <div class="content-heading">
-   <div class="pull-right text-center">
-      <div data-sparkline="" data-bar-color="#cfdbe2" data-height="20" data-bar-width="3" data-bar-spacing="5" data-values="1,2,3,4,5,6,7,8,9,10"></div>
-   </div>
-   <%= current_digital_asset.name %> Github Data
- </div>
- <div class="row">
-    <div class="col-lg-4 col-md-6">
-       <!-- START widget-->
-       <div class="panel widget bg-success">
-          <div class="row row-table">
-             <div class="col-xs-4 text-center bg-success-dark pv-lg">
-                <em class="icon-share fa-3x"></em>
-             </div>
-             <div class="col-xs-8 pv-lg">
-                <div class="h1 m0 text-bold"><%= @github_profile.public_repos%></div>
-                <div class="text-uppercase">Public Repos</div>
-             </div>
-          </div>
-       </div>
-    </div>
+  <div class="pull-right text-center">
+    <div data-sparkline="" data-bar-color="#cfdbe2" data-height="20" data-bar-width="3" data-bar-spacing="5" data-values="1,2,3,4,5,6,7,8,9,10"></div>
+  </div>
+  <%= current_digital_asset.name %> Github Data
 </div>
+
+<!-- START widgets box-->
+<div class="row">
+   <div class="col-lg-3 col-sm-6">
+      <!-- START widget-->
+      <div class="panel widget bg-primary">
+         <div class="row row-table">
+            <div class="col-xs-4 text-center bg-primary-dark pv-lg">
+               <em class="icon-social-github fa-3x"></em>
+            </div>
+            <div class="col-xs-8 pv-lg">
+               <div class="h2 mt0"><%= @github_profile.public_repos%></div>
+               <div class="text-uppercase">Public Repos</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="col-lg-3 col-sm-6">
+      <!-- START widget-->
+      <div class="panel widget bg-purple">
+         <div class="row row-table">
+            <div class="col-xs-4 text-center bg-purple-dark pv-lg">
+               <em class="icon-people fa-3x"></em>
+            </div>
+            <div class="col-xs-8 pv-lg">
+               <div class="h2 mt0"><%= @github_profile.repo_total('subscribers_count')%>
+               </div>
+               <div class="text-uppercase">Total Subscribers</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="col-lg-3 col-md-6 col-sm-12">
+      <!-- START widget-->
+      <div class="panel widget bg-purple">
+         <div class="row row-table">
+            <div class="col-xs-4 text-center bg-purple-dark pv-lg">
+               <em class="icon-eye fa-3x"></em>
+            </div>
+            <div class="col-xs-8 pv-lg">
+               <div class="h2 mt0"><%= @github_profile.repo_total('watchers_count')%></div>
+               <div class="text-uppercase">Watchers</div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="col-lg-3 col-md-6 col-sm-12">
+      <!-- START widget-->
+      <div class="panel widget bg-purple">
+         <div class="row row-table">
+            <div class="col-xs-4 text-center bg-purple-dark pv-lg">
+               <em class="fa fa-code-fork fa-3x"></em>
+            </div>
+            <div class="col-xs-8 pv-lg">
+               <div class="h2 mt0"><%= @github_profile.repo_total('forks_count')%></div>
+               <div class="text-uppercase">Forks</div>
+            </div>
+         </div>
+      </div>
+     </div>
+     <div class="col-lg-3 col-md-6 col-sm-12">
+   </div>
+</div>
+<!-- END widgets box-->

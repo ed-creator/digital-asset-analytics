@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170830164849) do
+ActiveRecord::Schema.define(version: 20170831144835) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -39,6 +39,22 @@ ActiveRecord::Schema.define(version: 20170830164849) do
     t.index ["digital_asset_id"], name: "index_github_profiles_on_digital_asset_id"
   end
 
+  create_table "github_repos", force: :cascade do |t|
+    t.string "name"
+    t.integer "size"
+    t.integer "stargazers_count"
+    t.integer "watchers_count"
+    t.integer "forks_count"
+    t.integer "open_issues_count"
+    t.integer "subscribers_count"
+    t.integer "network_count"
+    t.integer "github_id"
+    t.bigint "github_profile_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["github_profile_id"], name: "index_github_repos_on_github_profile_id"
+  end
+
   create_table "price_histories", force: :cascade do |t|
     t.bigint "digital_asset_id"
     t.datetime "created_at", null: false
@@ -55,5 +71,6 @@ ActiveRecord::Schema.define(version: 20170830164849) do
   end
 
   add_foreign_key "github_profiles", "digital_assets"
+  add_foreign_key "github_repos", "github_profiles"
   add_foreign_key "price_histories", "digital_assets"
 end
