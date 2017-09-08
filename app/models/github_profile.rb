@@ -1,6 +1,7 @@
 class GithubProfile < ApplicationRecord
   belongs_to :digital_asset
   has_many :github_repos
+  validates :org_name, uniqueness: true
 
 
   # The GithubProfile must have the org_name to update_profile (build json containing this)
@@ -28,7 +29,6 @@ class GithubProfile < ApplicationRecord
   def update_repo_snapshots
     github_repos.each do
       |repo|
-      require 'pry'; binding.pry
       repo.update_repo_snapshots
     end
   end

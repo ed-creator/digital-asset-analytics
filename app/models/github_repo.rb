@@ -23,7 +23,6 @@ class GithubRepo < ApplicationRecord
     response = HTTParty.get('https://api.github.com/repos/' + github_profile.org_name + '/' + name + '/stats/commit_activity')
     data = response.parsed_response
     data.each do |snapshot|
-      puts
       github_repo_snapshots.create(week_beggining: snapshot['week'],
                                   total: snapshot['total'], sunday: snapshot['days'][0],
                                   monday: snapshot['days'][1],
