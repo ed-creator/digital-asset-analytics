@@ -6,7 +6,9 @@ class GithubProfile < ApplicationRecord
 
   # The GithubProfile must have the org_name to update_profile (build json containing this)
   def update_profile
-    response = HTTParty.get('https://api.github.com/orgs/' + org_name)
+    response = HTTParty.get('https://api.github.com/orgs/' + org_name, :body=> {
+                                    :username => "9e8c7f5bb19cf14c39e38fe17c14e6d3b161f738"
+                                  } )
     data = response.parsed_response
     self.html_url = data['html_url']
     self.public_repos = data['public_repos']
